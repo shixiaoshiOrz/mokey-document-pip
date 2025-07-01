@@ -1,11 +1,17 @@
-# Vue 3 + TypeScript + Vite
+# 画中画插件
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 功能
 
-## Recommended IDE Setup
+* 打开油猴下拉菜单, 选择[启用画中画]功能可以激活脚本
+* 脚本激活后, 蓝色区域代表可开启画中画区域
+* 双击蓝色区域可开启画中画功能
+* 开启画中画功能后，脚本会被自动关闭
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![图片描述](src/assets/1.gif)
 
-## Type Support For `.vue` Imports in TS
+## 技术栈
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+* Vue 3
+* TypeScript
+* Vite
+* Element Plus
