@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
       - name: 📤 部署到 GitHub Pages
-        uses: peaceiris/actions-master@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub 自动提供，无需设置
           publish_dir: ./dist # 指向构建产物目录
