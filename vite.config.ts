@@ -14,6 +14,7 @@ export default defineConfig({
           "注册右键菜单;脚本运行后,鼠标hover到元素上时,出现切换画中画提示",
         icon: "https://vitejs.dev/logo.svg",
         namespace: "npm/vite-plugin-monkey",
+        license: "MIT",
         match: ["*://*/*"],
         noframes: true,
       },
