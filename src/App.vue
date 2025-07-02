@@ -80,7 +80,7 @@ const registerListener = () => {
 
 onMounted(() => {
   ElNotification({
-    title: "画中画",
+    title: "画中画脚本",
     message: "双击任意激活区域可开启画中画功能",
     type: "success",
     duration: 1500,
