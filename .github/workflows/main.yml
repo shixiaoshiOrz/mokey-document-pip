@@ -32,5 +32,5 @@ jobs:
           publish_dir: ./dist # 指向构建产物目录
           force_orphan: true # 防止历史污染（首次建议加）
 
-      - name: ✅ 成功提示
+      - name: 成功提示
         run: echo "🎉 脚本部署成功，快去刷新油猴吧！"
